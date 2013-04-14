@@ -26,6 +26,7 @@ git push -u origin master
 5. Edit Gemfile with plugins
 
 /*
+gem 'rails', '3.2.12'
 gem 'haml'
 gem 'haml-rails'
 #gem 'underscore-rails'
@@ -59,4 +60,20 @@ git commit -m "Generate Scaffold Title Descripcion Company Name Details Link"
 git push -u origin master
 
 
-7. 
+7. Fix app/views/layout/application.html.erb convert to Haml if haml is desired. 
+
+*Rails will see .erb first than .haml files if both are left in the folder
+
+
+
+8.  Test the sass by creating a file 
+
+* inside public/sass/application.css.sass
+* and start sever
+
+rails s
+
+
+git add . 
+git commit -m "Change application.html.erb to haml. Test Server and Sass"
+git push -u origin master
