@@ -91,5 +91,13 @@ git push -u origin master
 rails s
 
 git add . 
-git commit -m "Change application.html.erb to haml. Test Server and Sass"
+git commit -m "Add Compass scss"
+git push -u origin master
+
+
+11. Add Compass sass Edit index view to remove table
+
+
+git add . 
+git commit -m "Add Compass sass Edit index view to remove table"
 git push -u origin master
