@@ -101,3 +101,13 @@ git push -u origin master
 git add . 
 git commit -m "Add Compass sass Edit index view to remove table"
 git push -u origin master
+
+
+
+
+12. Change indexv view to ul and link to
+
+
+git add . 
+git commit -m "Add Compass sass Edit index view to remove table"
+git push -u origin master

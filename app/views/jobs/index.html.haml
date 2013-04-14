@@ -1,10 +1,12 @@
+%ul
 - @jobs.each do |job|
-  = job.title
-  = job.description
-  = job.company_name
-  = job.details_link
-  = link_to 'Show', job
-  = link_to 'Edit', edit_job_path(job)
+  %li
+    = link_to(job) do
+      %strong.job_title
+        = job.title
+      %span.description
+        = job.description
+    = link_to 'Edit', edit_job_path(job)
   
 
 = link_to 'New Job', new_job_path
