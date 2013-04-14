@@ -21,3 +21,42 @@ git config user.email "jesusalc@gmail.com"
 
 git add . 
 git commit -m "Rails New"
+git push -u origin master
+
+5. Edit Gemfile with plugins
+
+/*
+gem 'haml'
+gem 'haml-rails'
+#gem 'underscore-rails'
+#gem 'rails-backbone'
+#gem 'angular-rails'
+#gem 'jquery_mobile_rails'
+gem 'sass'
+# no support for windows
+#gem 'libv8', :git => 'git://github.com/cowboyd/libv8.git'
+#gem 'therubyracer' # nosupport for windows
+#gem 'less-rails' # no windows support
+#gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+
+# Bundle edge Rails instead:
+# gem 'rails', :git => 'git://github.com/rails/rails.git'
+*/
+
+
+bundle install
+
+
+6. Generate Tables Scaffold
+
+rails g scaffold job title:string description:text company_name:string details_link:string
+
+rake db:create
+rake db:migrate
+
+git add . 
+git commit -m "Generate Scaffold Title Descripcion Company Name Details Link"
+git push -u origin master
+
+
+7. 

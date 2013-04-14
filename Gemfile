@@ -1,6 +1,16 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.12'
+gem 'haml'
+gem 'haml-rails'
+#gem 'underscore-rails'
+#gem 'rails-backbone'
+#gem 'angular-rails'
+#gem 'jquery_mobile_rails'
+gem 'sass'
+#gem 'libv8', :git => 'git://github.com/cowboyd/libv8.git'
+#gem 'therubyracer'
+#gem 'less-rails'
+#gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
