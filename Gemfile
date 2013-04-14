@@ -8,7 +8,6 @@ gem 'haml-rails'
 #gem 'rails-backbone'
 #gem 'angular-rails'
 #gem 'jquery_mobile_rails'
-gem 'sass'
 #gem 'libv8', :git => 'git://github.com/cowboyd/libv8.git'
 #gem 'therubyracer'
 #gem 'less-rails'
@@ -23,6 +22,7 @@ gem 'sqlite3'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
+  gem 'sass'
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
 
@@ -33,7 +33,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
-
+gem 'compass'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

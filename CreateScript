@@ -68,11 +68,27 @@ git push -u origin master
 
 8.  Test the sass by creating a file 
 
-* inside public/sass/application.css.sass
+* inside public/sass/application.css.sass  <- Rails 3.2 this is dubiuos process
 * and start sever
 
 rails s
 
+
+git add . 
+git commit -m "Change application.html.erb to haml. Test Server and Sass"
+git push -u origin master
+
+9. Go and Design Views in Corel 
+
+10. Add Records to test with in front end
+
+11. Add a styleshett framework
+* like compass  http://compass-style.org/
+* add is to bundle gem
+* Folllow websiteinstall intructions and change application.html.hamll
+
+
+rails s
 
 git add . 
 git commit -m "Change application.html.erb to haml. Test Server and Sass"
