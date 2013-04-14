@@ -105,9 +105,24 @@ git push -u origin master
 
 
 
-12. Change indexv view to ul and link to
+12. Change index view to ul and link to
+
+
+rails s
+
+git add . 
+git commit -m "Change indexv view to ul and link to"
+git push -u origin master
+
+
+
+13. After installing compass, test it, move files around, poke around it 
+
+
+rails s
 
 
 git add . 
-git commit -m "Add Compass sass Edit index view to remove table"
+git commit -m "After installing compass, test it, move files around, poke around it"
 git push -u origin master
+
